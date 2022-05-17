@@ -1,0 +1,18 @@
+.Section {
+  display: flex;
+  align-items: center;
+  border-bottom-width: 2px;
+  padding: 15px;
+  min-width: 200px;
+  color: gray;
+  cursor: pointer;
+  border-width: 0 !important;
+}
+.section_selected {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+}
+.Section:hover {
+  background-color: whitesmoke;
+  border-width: 3px !important;
+}
